@@ -12,6 +12,11 @@ DURATION: 4 WEEKS
 MENTOR: NEELA SANTOSH
 
 
+### Output
+![Image](https://github.com/user-attachments/assets/116ff7f5-883e-46ff-99f1-ee8a6e474948)
+
+![Image](https://github.com/user-attachments/assets/61efaeae-2879-48dd-a906-14651482c317)
+
 A modern, responsive movie search application built with React that allows users to search for movies, view details, and manage their favorites.
 
 ## ✨ Features
