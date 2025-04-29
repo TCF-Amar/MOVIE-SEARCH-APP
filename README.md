@@ -1,4 +1,16 @@
 # 🎬 Movie Search App
+COMPANY: CODTECH ITSOLUTIONS
+
+NAME: Amarjeet Mistri
+
+INTERN ID: CT04WS26
+
+DOMAIN: React.js Web Development
+
+DURATION: 4 WEEKS
+
+MENTOR: NEELA SANTOSH
+
 
 A modern, responsive movie search application built with React that allows users to search for movies, view details, and manage their favorites.
 
