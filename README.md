@@ -1,18 +1,5 @@
 # 🎬 Movie Search App
-COMPANY: CODTECH ITSOLUTIONS
 
-NAME: Amarjeet Mistri
-
-INTERN ID: CT04WS26
-
-DOMAIN: React.js Web Development
-
-DURATION: 4 WEEKS
-
-MENTOR: NEELA SANTOSH
-
-
-### Output
 ![Image](https://github.com/user-attachments/assets/116ff7f5-883e-46ff-99f1-ee8a6e474948)
 
 ![Image](https://github.com/user-attachments/assets/61efaeae-2879-48dd-a906-14651482c317)
