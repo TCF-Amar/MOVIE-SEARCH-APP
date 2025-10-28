@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function MovieCard({ movie, isFavorite, onToggleFavorite }) {
     return (
         <motion.div
-            className="bg-gray-800 p-4 rounded-lg shadow-lg text-center hover:bg-gray-700 transition-colors"
+            className="bg-gray-800 md:p-4 rounded-lg shadow-lg text-center hover:bg-gray-700 transition-colors"
             whileHover={{ scale: 1.05 }}
         >
             <img
@@ -22,7 +22,7 @@ function MovieCard({ movie, isFavorite, onToggleFavorite }) {
             </div>
             <p className="text-sm mt-3 text-gray-300 line-clamp-3 hidden md:block">{movie.Plot}</p>
             <div className="flex justify-between items-center mt-3">
-                <span className="text-sm bg-gray-600 px-2 py-1 rounded">{movie.Type}</span>
+                <span className="text-sm bg-gray-600 px-2 py-1 rounded hidden md:block">{movie.Type}</span>
                 <button
                     className={`p-2 rounded-lg transition-colors ${
                         isFavorite
