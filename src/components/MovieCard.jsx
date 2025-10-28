@@ -21,7 +21,7 @@ function MovieCard({ movie, isFavorite, onToggleFavorite }) {
                 <p className="mt-2 text-yellow-400">⭐ {movie.imdbRating}/10</p>
             </div>
             <p className="text-sm mt-3 text-gray-300 line-clamp-3 hidden md:block">{movie.Plot}</p>
-            <div className="flex justify-between items-center mt-3">
+            <div className="flex justify-between items-center mt-3 p-2">
                 <span className="text-sm bg-gray-600 px-2 py-1 rounded">{movie.Type}</span>
                 <button
                     className={`p-2 rounded-lg transition-colors ${
