@@ -17,12 +17,12 @@ function MovieCard({ movie, isFavorite, onToggleFavorite }) {
             <h2 className="text-lg font-semibold mt-2">{movie.Title}</h2>
             <div className="text-sm text-gray-400 mt-2">
                 <p>{movie.Year} • {movie.Runtime}</p>
-                <p className="mt-1">{movie.Genre}</p>
+                <p className="mt-1 hidden md:block">{movie.Genre}</p>
                 <p className="mt-2 text-yellow-400">⭐ {movie.imdbRating}/10</p>
             </div>
             <p className="text-sm mt-3 text-gray-300 line-clamp-3 hidden md:block">{movie.Plot}</p>
             <div className="flex justify-between items-center mt-3">
-                <span className="text-sm bg-gray-600 px-2 py-1 rounded hidden md:block">{movie.Type}</span>
+                <span className="text-sm bg-gray-600 px-2 py-1 rounded">{movie.Type}</span>
                 <button
                     className={`p-2 rounded-lg transition-colors ${
                         isFavorite
